@@ -52,3 +52,9 @@ Mostly .net and web
     npm -g list --depth=0
     # Write-Output "Angular"
     # ng --version
+
+
+### Update tools
+    npm i -g npm, yarn, typescript, @angular/cli
+    dotnet tool update dotnet-stryker -g
+    #Start-Process -Wait -FilePath  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" -ArgumentList "update --passive --norestart --installpath ""C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional"""
