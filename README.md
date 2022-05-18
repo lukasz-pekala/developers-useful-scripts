@@ -4,10 +4,13 @@ Mostly .net and web
 
 ### Disk/Cache Cleanup
 
-#### Quickly remove content of node_modules folder
+#### CMD: Quickly remove content of node_modules folder:
+    "clean:node_modules": "rmdir node_modules /s"
+
+#### PowerShell: Quickly remove content of node_modules folder
     Remove-Item -path node_modules -Recurse
 
-#### Quickly remove content of logs folder
+#### PowerShell: Quickly remove content of logs folder
     Remove-Item -path logs -Recurse
 
 #### Cleaning yarn cache
