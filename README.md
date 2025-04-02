@@ -61,3 +61,28 @@ Mostly .net and web
     npm i -g npm yarn typescript @angular/cli
     dotnet tool update dotnet-stryker -g
     #Start-Process -Wait -FilePath  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" -ArgumentList "update --passive --norestart --installpath ""C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional"""
+
+
+### Emojis for development
+
+```
+feat(auth): ✨ Add new login system
+fix(api): 🐛 Fix timeout issue
+docs: 📝 Update README
+```
+
+🚀 - Deploying new version
+⚡ - Performance optimization
+🐛 - Bug fixing
+✨ - New feature
+🔨 - Refactoring code
+🎨 - UI/UX updates
+✅ - Tests passed
+❌ - Tests failed
+🔧 - Configuration changes
+📝 - Documentation updates
+🔀 - Merging branches
+🔒 - Security patches
+🆕 - New additions
+⚠️ - Warning/Deprecation
+🔍 - Code review
